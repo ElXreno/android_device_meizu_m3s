@@ -70,14 +70,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 	Torch
 
-# Wifi
-PRODUCT_PACKAGES += \
-	libwpa_client \
-	hostapd \
-	dhcpcd.conf \
-	wpa_supplicant \
-	wpa_supplicant.conf
-
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
 	$(LOCAL_PATH)/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
